@@ -22,10 +22,7 @@ addBtn.addEventListener("click", function() {
     } else {
         push(shoppingListInDB, inputValue)
         clearInputFieldEl() 
-    }
-    
-    
-    
+    }   
 })
 
 onValue(shoppingListInDB, function(snapshot) {
