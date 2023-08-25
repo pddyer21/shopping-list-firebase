@@ -18,7 +18,7 @@ addBtn.addEventListener("click", function() {
     let inputValue = inputEl.value
 
     if (inputValue === "") {
-        alert("Type in an item...")
+        alert("The item field must be filled out...")
     } else {
         push(shoppingListInDB, inputValue)
         clearInputFieldEl() 
